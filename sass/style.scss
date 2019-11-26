@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+
+header {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://i.postimg.cc/HWvcFyxj/background.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-main {
+    font-size: 75px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.subtitle-main {
+    font-style: italic;
+    color: white;
+}
+
+
+
+.center {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    max-width: 1040px;
+
+}
+
+.btn-one {
+    font-weight: 700;
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    border-color: #fed136;
+    line-height: 3;
+    /*do poprawy*/
+
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+    max-width: 1040px;
+    padding-top: 40px;
+
+}
+
+.logo-text {
+    color: #fed136;
+    font-size: 28px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+
+
+}
+
+.menu ul {
+    list-style: none;
+
+
+}
+
+.menu ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+
+
+}
+
+.menu a {
+    color: white;
+}
+
+// * {
+//     outline: 1px solid red;
+// }
+
+.services,
+.porfolio {
+    height: 500px;
+}
+
+.service {
+    max-width: 1040px;
+    text-align: center;
+    margin-top: 100px
+}
+
+
+
+.service i {
+    font-size: 40px;
+    color: #fed136;
+    margin-bottom: 30px;
+
+}
+
+.card-body {
+    text-align: center;
+    line-height: 0.4;
+}
+
+.card {
+    margin: 20px;
+}
+
+.portfolio {
+    padding-top: 20px;
+    background-color: #f7f7f7;
+}
+
+
+.title-section {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.subtitle-section {
+    font-style: italic;
+}
+
+footer i {
+    font-size: 30px;
+
+}
+
+.foot {
+    margin-top: 10px;
+}
+
+.card-text {
+    font-weight: 700;
+
+}
+
+.card-sub {
+    font-style: italic;
+}
